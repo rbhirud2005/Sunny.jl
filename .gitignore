@@ -7,3 +7,6 @@ profile.pb.gz
 *.ipynb
 *.lyx~
 *.lyx#
+
+benchmarks/findings.md
+benchmarks/phase3_design.md

@@ -172,7 +172,7 @@ extension_fns = [
     # ext/ExportVTKExt
     :WriteVTK => [:export_vtk],
     # ext/CUDAExt
-    :CUDA => [:to_device],
+    :CUDA => [:to_device, :to_device_batched],
 ]
 
 for (_pkg, fns) in extension_fns
