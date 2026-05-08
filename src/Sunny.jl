@@ -173,6 +173,8 @@ extension_fns = [
     :WriteVTK => [:export_vtk],
     # ext/CUDAExt
     :CUDA => [:to_device, :to_device_batched],
+    # ext/KAExt (reuses the to_device / to_device_batched stubs declared above)
+    :KernelAbstractions => [],
 ]
 
 for (_pkg, fns) in extension_fns
